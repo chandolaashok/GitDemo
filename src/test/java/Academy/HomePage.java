@@ -49,6 +49,14 @@ public class HomePage extends basic {
 	  	 driver.close();
 	  	}
 	
+
+	@AfterTest
+	  public void teardown2()
+	  {
+	  	
+	  	 driver.close();
+	  	}
+	
 	  @DataProvider 
 	   public Object[][] getData() // here we need to create an array
 	   {
