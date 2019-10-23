@@ -21,6 +21,10 @@ public class Listners implements ITestListener {
 		// TODO Auto-generated method stub
 		
 	}
+	public void onStart2(ITestContext arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
